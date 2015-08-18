@@ -8,13 +8,16 @@
   </head>
   <body>
     <p>
-      <h1>"Guess a number between 0 and 100"</h1>
+      <h1>Guess a number between 0 and 100</h1>
     </p>
     <p>
-      <h2>"<%= message%>"</h2>
+      <h2> <%=cheat_message%></h2>
+    </p>
+    <p>
+      <h2><%= message %></h2>
       <form>
         <input type='text' name='guess' />
-        <input type='submit' name='Guess!' />
+        <input type='submit' name='Guess!' value=Guess! />
       </form>
     </p>
     <p> "Guesses Remaining: <%= guesses_remaining %>"</p>
